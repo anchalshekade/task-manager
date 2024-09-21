@@ -1,0 +1,72 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #218838;
+}
+
+.task-list {
+  border-top: 2px solid #ccc;
+  padding-top: 10px;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.task-item h3 {
+  margin: 0;
+}
+
+.task-item button {
+  background-color: #dc3545;
+}
+
+.task-item button:hover {
+  background-color: #c82333;
+}
+
+.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
